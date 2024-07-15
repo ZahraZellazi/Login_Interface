@@ -58,7 +58,7 @@ body {
 }
 
 .socialI {
-  border: 1px solid #dddddd;
+  border: 1px solid #ffffff;
   border-radius: 50%;
   display: inline-flex;
   justify-content: center;
@@ -83,20 +83,26 @@ body {
   color: #0e76a8; /* LinkedIn color */
 }
 .socialI:hover {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 
 }
 
 .inputI {
   background-color: #eee;
-  border: none;
+  border: 1px solid rgb(255, 255, 255);
+  outline: none;
+  border-radius: 20px;
   padding: 12px 15px;
   margin: 8px 0;
   width: 100%;
 }
-
-.inputI:active{
-    
+.inputI:focus{
+  background-color: #eee;
+  border: 2px solid coral;
+  outline: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
 }
 .link {
   color: #007BFF;
@@ -148,9 +154,9 @@ body {
 }
 .buttonII {
   border-radius: 20px;
-  border: 1px solid white; /* Small white border */
-  background: transparent; /* Make background transparent */
-  color: white; /* Text color */
+  border: 1px solid white;
+  background: transparent; 
+  color: white;
   font-size: 12px;
   font-weight: bold;
   padding: 12px 45px;
@@ -172,20 +178,20 @@ body {
 }
 @media screen and (max-width: 1000px) {
   .containerII {
-    display: none; /* Hide containerII on small screens */
+    display: none;
   }
 
   .containerI {
-    border-radius: 20px; /* Adjust border radius */
+    border-radius: 20px;
   }
 
   .wrapperI::after {
-    display: none; /* Hide arrow when slider is visible */
+    display: none; 
   }
 
   .switch {
-    display: inline-block; /* Ensure the switch is visible */
-    margin-top: 20px; /* Add some spacing if needed */
+    display: inline-block; 
+    margin-top: 20px; 
   }
 }
 
@@ -196,6 +202,6 @@ body {
     color: coral;
     display: inline-block;
     margin-left: 10px;
-    cursor: pointer; /* Arrow is clickable */
+    cursor: pointer; 
   }
 }

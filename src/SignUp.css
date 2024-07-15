@@ -58,7 +58,7 @@ body {
 }
 
 .socialU {
-  border: 1px solid #dddddd;
+  border: 1px solid #ffffff;
   border-radius: 50%;
   display: inline-flex;
   justify-content: center;
@@ -83,13 +83,23 @@ body {
   color: #0e76a8; /* LinkedIn color */
 }
 .socialU:hover {
-  background-color: #f0f0f0;
+  background-color: #ffffff
 
 }
 
 .inputU {
   background-color: #eee;
-  border: 1px solid coral;
+  border: 1px solid rgb(255, 255, 255);
+  outline: none;
+  border-radius: 20px;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+.inputU:focus{
+  background-color: #eee;
+  border: 2px solid coral;
+  outline: none;
   padding: 12px 15px;
   margin: 8px 0;
   width: 100%;
