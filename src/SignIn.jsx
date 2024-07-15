@@ -20,7 +20,7 @@ const SignIn = () => {
       </div>
     </div>
     <div className="containerII">
-        <div className="titleII">Welcome !</div>
+        <div className="titleII">Hello New Friend !</div>
         <p className='paragII'> To create an account please create an account with your personal info.</p>
         <button className="buttonII">Sign In</button>
       </div>

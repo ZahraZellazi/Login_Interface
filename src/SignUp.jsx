@@ -21,7 +21,7 @@ function SignUp() {
       </div>
     </div>
     <div className="containerUU">
-        <div className="titleUU">Have An Account !</div>
+        <div className="titleUU">Welcome Back!</div>
         <p className='paragUU'> To connected with us please login with your personal info.</p>
         <button className="buttonUU">Sign In</button>
       </div>
