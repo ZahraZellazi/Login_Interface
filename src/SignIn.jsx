@@ -7,8 +7,8 @@ const SignIn = () => {
     <div className='wrapperI'>
       <div className="containerII">
         <div className="titleII">Hello New Friend !</div>
-        <p className='paragII'> To create an account please create an account with your personal info.</p>
-        <button className="buttonII">Sign In</button>
+        <p className='paragII'> Don't have an account ? <br/>Create an account with your personal info <br/>click bellow !.</p>
+        <button className="buttonII">Sign Up</button>
       </div>
     <div className="containerI">
         <div className='titleI'>Sing In</div>
