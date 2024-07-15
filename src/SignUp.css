@@ -149,10 +149,10 @@ body {
   margin-bottom: 48px;
 }
 .buttonUU {
-  background-color: transparent;
   border-radius: 20px;
-  border: 1px solid transparent;
-  color: #ffffff;
+  border: 1px solid white; /* Small white border */
+  background: transparent; /* Make background transparent */
+  color: white; /* Text color */
   font-size: 12px;
   font-weight: bold;
   padding: 12px 45px;
@@ -161,7 +161,6 @@ body {
   transition: transform 0.3s ease;
   cursor: pointer;
   margin-top: 60px;
-  transition: 0.1s;
 }
 
 .buttonUU:hover {
