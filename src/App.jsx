@@ -14,7 +14,7 @@ function App() {
       {isSignIn ? (
         <SignIn onSwitch={toggleForm} />
       ) : (
-        <SignUp onSwitch={toggleForm} />
+        <SignUp />
       )}
     </div>
   );

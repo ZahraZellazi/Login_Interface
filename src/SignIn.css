@@ -172,19 +172,30 @@ body {
 }
 @media screen and (max-width: 1000px) {
   .containerII {
-    display: none;
+    display: none; /* Hide containerII on small screens */
   }
 
   .containerI {
-    border-radius: 20px;
+    border-radius: 20px; /* Adjust border radius */
   }
 
+  .wrapperI::after {
+    display: none; /* Hide arrow when slider is visible */
+  }
+
+  .switch {
+    display: inline-block; /* Ensure the switch is visible */
+    margin-top: 20px; /* Add some spacing if needed */
+  }
+}
+
+@media screen and (min-width: 1001px) {
   .wrapperI::after {
     content: '→';
     font-size: 24px;
     color: coral;
     display: inline-block;
     margin-left: 10px;
+    cursor: pointer; /* Arrow is clickable */
   }
 }
-

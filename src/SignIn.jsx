@@ -25,7 +25,7 @@ const SignIn = ({ onSwitch }) => {
           <input type="text" placeholder="E-mail" className="inputI" />
           <input type="password" placeholder="Password" className="inputI" />
           <a href="/forgot-password" className="link">Forgot Password?</a>
-          <button className="buttonI" onClick={onSwitch}>Sign Up</button>
+          <button className="buttonI">Sign In</button>
         </div>
       </div>
     </div>
