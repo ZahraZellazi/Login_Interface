@@ -3,7 +3,7 @@ import SignIn from './SignIn';
 import SignUp from './SignUp';
 
 function App() {
-  const [isSignIn, setIsSignIn] = useState(true); 
+  const [isSignIn, setIsSignIn] = useState(true);
 
   const toggleForm = () => {
     setIsSignIn(prev => !prev);
@@ -14,7 +14,7 @@ function App() {
       {isSignIn ? (
         <SignIn onSwitch={toggleForm} />
       ) : (
-        <SignUp />
+        <SignUp onSwitch={toggleForm} />
       )}
     </div>
   );

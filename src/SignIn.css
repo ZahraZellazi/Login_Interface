@@ -72,15 +72,15 @@ body {
   
 }
 .socialI.facebook:hover {
-  color: #3b5998; /* Facebook color */
+  color: #3b5998;
 }
 
 .socialI.google:hover {
-  color: #db4437; /* Google color */
+  color: #db4437; 
 }
 
 .socialI.linkedin:hover {
-  color: #0e76a8; /* LinkedIn color */
+  color: #0e76a8; 
 }
 .socialI:hover {
   background-color: #ffffff;
@@ -195,13 +195,4 @@ body {
   }
 }
 
-@media screen and (min-width: 1001px) {
-  .wrapperI::after {
-    content: '→';
-    font-size: 24px;
-    color: coral;
-    display: inline-block;
-    margin-left: 10px;
-    cursor: pointer; 
-  }
-}
+
