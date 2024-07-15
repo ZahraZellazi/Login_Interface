@@ -32,13 +32,13 @@ body {
 .containerI {
   background-color: #fff;
 }
-.containerII{
+.containerI{
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.containerI{ 
+.containerII{ 
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-top-left-radius: 20px;

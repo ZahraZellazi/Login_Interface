@@ -172,6 +172,8 @@ body {
 .buttonUU:active {
   transform: scale(0.95);
 }
+
+/*
 @media screen and (max-width: 1000px) {
   .containerUU {
     display: none;
@@ -189,3 +191,4 @@ body {
     margin-left: 10px;
   }
 }
+*/

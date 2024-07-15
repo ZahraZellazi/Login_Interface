@@ -5,6 +5,11 @@ import './SignIn.css';
 const SignIn = () => {
   return (
     <div className='wrapperI'>
+      <div className="containerII">
+        <div className="titleII">Hello New Friend !</div>
+        <p className='paragII'> To create an account please create an account with your personal info.</p>
+        <button className="buttonII">Sign In</button>
+      </div>
     <div className="containerI">
         <div className='titleI'>Sing In</div>
       <div className="social-containerI">
@@ -19,11 +24,6 @@ const SignIn = () => {
         <button className="buttonI">Sign Up</button>
       </div>
     </div>
-    <div className="containerII">
-        <div className="titleII">Hello New Friend !</div>
-        <p className='paragII'> To create an account please create an account with your personal info.</p>
-        <button className="buttonII">Sign In</button>
-      </div>
     </div>
   );
 };
