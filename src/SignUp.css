@@ -110,7 +110,8 @@ body {
   font-size: 14px;
   text-decoration: none;
   display: block;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 7px;
 }
 
 .titleU {
@@ -200,4 +201,13 @@ body {
     margin-left: 10px;
     cursor: pointer;
   }
+}
+
+.error-message {
+  color: red;
+ font-size: 8px;
+ font-weight: bold;
+}
+.inputU.error {
+  border-color: red; 
 }

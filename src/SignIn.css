@@ -196,3 +196,12 @@ body {
 }
 
 
+.error-message {
+  color: red;
+ font-size: 8px;
+ font-weight: bold;
+}
+.inputI.error {
+  border-color: red; 
+}
+
