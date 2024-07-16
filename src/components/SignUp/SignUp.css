@@ -118,7 +118,7 @@ body {
   font-weight: bold;
   font-size: 42px;
   margin: 0;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   background: linear-gradient(to right, coral, #f5434c);
   -webkit-background-clip: text;
   color: transparent;
@@ -172,6 +172,7 @@ body {
   transition: transform 0.3s ease;
   cursor: pointer;
   margin-top: 60px;
+
 }
 
 .buttonUU:hover {
@@ -194,15 +195,28 @@ body {
   }
 
   .wrapperU::after {
-    content: '→';
     font-size: 24px;
     color: coral;
     display: inline-block;
     margin-left: 10px;
     cursor: pointer;
   }
-}
 
+}
+.content {
+  background: linear-gradient(to right, coral, #f5434c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: coral;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  display: inline-block; 
+}
+.icon {
+  color: coral; 
+  vertical-align: middle; 
+  margin-left: 5px; 
+}
 .error-message {
   color: red;
  font-size: 8px;

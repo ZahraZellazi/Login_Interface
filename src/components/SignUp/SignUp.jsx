@@ -51,6 +51,8 @@ return (
   <div className='wrapperU'>
     <div className="containerU">
       <div className='titleU'>Sign Up</div>
+      <div className='content'>
+        </div>
       <div className="social-containerU">
         <a href="*" className="socialU facebook"><FaFacebook /></a>
         <a href="*" className="socialU google"><FaGoogle /></a>
