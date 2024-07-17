@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import { FaFacebook, FaGoogle, FaLinkedin } from 'react-icons/fa';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './SignIn.css';
+import './components/SignIn.css';
 
 const SignIn = ({ onSwitch }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errors, setErrors] = useState({});
+  
 
   const validateEmail = (email) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
